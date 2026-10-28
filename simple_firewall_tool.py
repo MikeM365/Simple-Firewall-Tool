@@ -14,7 +14,7 @@ class SimpleFirewall:
         rule = {
             'action': action,
             'ip': ip or 'any',
-            'port': str(port) or 'any'
+            'port': str(port) if port else 'any'
         }
         self.rules.append(rule)
         print(f"Rule added: {action} {rule['ip']}:{rule['port']}")
