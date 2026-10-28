@@ -15,6 +15,6 @@ This is an educational command-line firewall tool built in Python. The project w
 1.  Ensure you have Python 3 installed.
 2.  Run the script from your terminal:
     ```sh
-    python simple_firewall.py
+    python simple_firewall_tool.py
     ```
 3.  Follow the interactive menu prompts.
